@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class AddTwoNumbers2 {
+public class multiplyTwoNumbers2 {
 
     public static void main(String[] args) {
         
@@ -12,9 +12,7 @@ public class AddTwoNumbers2 {
         num2 = sc.nextInt();
         
         sc.close();
-        sum = num1 + num2;
-        System.out.println("Sum of these numbers: "+sum);
+        result = num1 + num2;
+        System.out.println("Sum of these numbers: "+result);
     }
 }
-
-Output:
