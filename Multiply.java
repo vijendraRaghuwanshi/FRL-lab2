@@ -12,7 +12,7 @@ public class multiplyTwoNumbers2 {
         num2 = sc.nextInt();
         
         sc.close();
-        result = num1 + num2;
-        System.out.println("Sum of these numbers: "+result);
+        result = num1 * num2;
+        System.out.println("Multiplication of these numbers: "+result);
     }
 }
