@@ -6,7 +6,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         
-        int num1, num2, sum;
+        int num1, num2, result;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Number: ");
         num1 = sc.nextInt();
@@ -17,7 +17,11 @@ public class Calculator {
         sc.close();
         result = num1 * num2;
         System.out.println("Multiplication of these numbers: "+result);
-        sub = num1 - num2;
-        System.out.println("Subtract of these numbers: "+sub);
+        result= num1 - num2;
+        System.out.println("Subtract of these numbers: "+result);
+        result= num1 + num2;
+        System.out.println("Sum of these numbers: "+result);
+        result = num1 /num2;
+        System.out.println("Division of the integers = "+result);
     }
 }
