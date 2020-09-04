@@ -17,11 +17,11 @@ public class Calculator {
         sc.close();
         result = num1 * num2;
         System.out.println("Multiplication of these numbers: "+result);
-        result= num1 - num2;
-        System.out.println("Subtract of these numbers: "+result);
-        result= num1 + num2;
-        System.out.println("Sum of these numbers: "+result);
-        result = num1 /num2;
-        System.out.println("Division of the integers = "+result);
+        result1= num1 - num2;
+        System.out.println("Subtract of these numbers: "+result1);
+        result2= num1 + num2;
+        System.out.println("Sum of these numbers: "+result2);
+        result3 = num1 /num2;
+        System.out.println("Division of the integers = "+result3);
     }
 }
