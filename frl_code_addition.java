@@ -5,10 +5,10 @@ public class AddTwoNumbers2 {
         
         int num1, num2, sum;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter First Number: ");
+        System.out.println("Enter 1 st Number: ");
         num1 = sc.nextInt();
         
-        System.out.println("Enter Second Number: ");
+        System.out.println("Enter 2 nd  Number: ");
         num2 = sc.nextInt();
         
         sc.close();
@@ -21,7 +21,7 @@ class Division
    public static void main(String args[])
    {
       int p, q, r;
-      System.out.println("Enter two integers for Division: ");
+      System.out.println("Enter 2 integers for Division: ");
       Scanner sc = new Scanner(System.in);   
       p = sc.nextInt();   
       q = sc.nextInt();
